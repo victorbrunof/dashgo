@@ -31,3 +31,5 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(({ label, er
         </FormControl>
     );
 });
+
+Input.displayName ="Input";
