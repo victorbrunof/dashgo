@@ -1,6 +1,7 @@
 {
   "name": "dashgo",
   "version": "0.1.0",
+  "homepage": "dashgo/",
   "private": true,
   "scripts": {
     "dev": "next dev",
