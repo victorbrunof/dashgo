@@ -20,7 +20,8 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(({ label, er
                 bgColor="gray.900"
                 variant="filled"
                 _hover={{ bgColor: 'gray.900' }}
-                size="lg" />
+                size="lg" 
+            />
 
                 { !!error && (
                     <FormErrorMessage>
