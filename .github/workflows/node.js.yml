@@ -38,3 +38,8 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm export
+      
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build # The folder the action should deploy.
