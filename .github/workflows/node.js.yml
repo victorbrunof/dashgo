@@ -25,8 +25,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Install Dependencies
     - run: npm ci
-    - run: npm run build --if-present
+    - run: npm run build
     - run: npm export
     
         
